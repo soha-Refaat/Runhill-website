@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runhill</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+      
+      <nav class="navbar navbar-expand-lg bg-body-tertiary navBar">
+        <div class="container">
+          <a class="navbar-brand logo" href="#"><img src="imag/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class=" active " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="single-blog.html">Single Blog</a></li>
+                  <li><a class="dropdown-item" href="serviceDetails.html">Single Service</a></li>
+                  <li><a class="dropdown-item" href="single-project.html">Single Project</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="project.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="contact.html">contact</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner home">
+          <div class="carousel-item active">
+            <div class="img-section">
+            <img src="imag/homme1.jfif" class="d-block w-100" alt="...">
+          </div>
+          <div class="cont-section">
+              <h2 class="h">Powerfull Minimal Construction HTML Template</h2>
+              <p class="p">We endeavour to realise our client's dream, by combining their ideas, <br> .lifestyle, and budget with our own experience</p>
+              <button calss="btn home-btn"><a href="contact.html" style="color:#222">Request a quote</a></button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="img-section">
+              <img src="imag/homm2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="cont-section">
+                <h2 class="h">Powerfull Minimal Construction HTML Template</h2>
+                <p class="p">We endeavour to realise our client's dream, by combining their ideas, <br> .lifestyle, and budget with our own experience</p>
+                <button class="btn home-btn"><a href="contact.html" style="color:#222">Request a quote</a></button>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="img-section">
+              <img src="imag/homm3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="cont-section">
+                <h2 class="h">Powerfull Minimal Construction HTML Template</h2>
+                <p class="p">We endeavour to realise our client's dream, by combining their ideas, <br> .lifestyle, and budget with our own experience</p>
+                <button class="btn home-btn"><a href="contact.html" style="color:#222">Request a quote</a></button>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev slid-btn" onclick="RefreshCont()" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next slid-btn" onclick="RefreshCont()" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+<div class="container text-center projects">
+  <div class="row ">
+    <div class="col-lg-5">
+      <div class="cont-item">
+        <div class="section-item">
+          <h2 class="h">Done & Dusted</h2>
+        </div>
+        
+        <p class="p">We endeavour to realise our client's dreams, by combining their ideas, lifestyle, and budget with our own experience, expertise, and best practice to create a home that is<br>.enjoyable, practical, sustainable, and of lasting value.</p>
+         <button class="btn" ><a href="project.html" style="color: #fff;">View all Projects <i class="fa-solid fa-arrow-right"></i></a></button>
+      </div>
+    </div>
+    <div class="col-lg-7">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active img-item">
+            <img src="imag/project-item1.jfif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item img-item">
+            <img src="imag/project-item2.jfif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item img-item">
+            <img src="imag/project-item3.jfif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="top-news">
+<div class="container text-center">
+<div class="top-container">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="top-item itemm">
+        <img src="imag/top1`.jfif" alt="">
+        <h4>Best Construction</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur, eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        <button onclick="openServiceDetails()">View Details <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="top-item  itemm">
+        <img src="imag/top2.jfif" alt="">
+        <h4>Best Renovation</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur, eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        <button onclick="openServiceDetails()">View Details <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="top-item newss">
+        <h4 class="h">Top News</h4>
+        <div class="top-cont con1">
+          <img src="imag/top3.jfif" alt="">
+          <p>The construction app helps construction superintendents put safety first</p>
+          
+        </div>
+        <div class="top-cont cont2">
+          <img src="imag/top4.jfif" alt="">
+          <p>The construction app helps construction superintendents put safety first</p>
+          <span></span>
+        </div>
+        <div class="top-cont cont3">
+          <img src="imag/top5.jfif" alt="">
+          <p>The construction app helps construction superintendents put safety first</p>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="about">
+  <div class="container text-center about-items">
+    <h2>Why choose us</h2>
+    <div class="row">
+      <div class="col-lg-3">
+          <div class="end-img">
+          <img src="imag/eng1.jfif" alt="">
+      </div>
+      </div>
+      <div class="col-lg-3 ">
+        <div class="eng-details" style="margin-top: 10px;">
+          <h4>Rialibility</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          <h4>Time Saving</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        </div>
+        
+      <div class="col-lg-3">
+        
+          <div class="end-img">
+            <img src="imag/eng2.jfif" alt="">
+          </div>
+      </div>
+        <div class="col-lg-3">
+          <div class="eng-details" style="margin-top: 10px;">
+            <h4>Expertise</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <h4>Quality</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  
+  <div class="eng-about">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="heart">
+          <div class="heart-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="heart-details">
+            <h4>Renovation</h4>
+            <p>Our various areas of expertise are available on a consulting basis as an additional support</p>
+          </div>
+      </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="heart">
+          <div class="heart-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="heart-details">
+            <h4>Installation</h4>
+            <p>Our various areas of expertise are available on a consulting basis as an additional support</p>
+          </div>
+      </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="heart">
+          <div class="heart-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="heart-details">
+            <h4>Rebuilding</h4>
+            <p>Our various areas of expertise are available on a consulting basis as an additional support</p>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="who-we-are who-we-are-bg">
+  <h2 class="who-heading">who we are</h2>
+   <div class="who-item-table">
+       <div class="who-item-tablecell">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-12 text-center">
+                       <a href="https://vimeo.com/90691438" class="play-btn popup-youtube">
+                           <i class="fa fa-play"></i>
+                       </a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+
+
+<div class="testimonials">
+<div class="container text-center">
+  <div class="testimonials-head">
+    <h2>our testimonials</h2>
+  </div>
+  
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="prof">
+        <div class="prof-img">
+          <img src="imag/profile-img-1.jpg" alt="">
+        </div>
+        <div class="prof-cont">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aute irure dolor in sint</p>
+          <h4>Alistar Cook</h4>
+          <p>Designer</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="prof">
+        <div class="prof-img">
+          <img src="imag/profile-img-2.jpg" alt="">
+        </div>
+        <div class="prof-cont">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aute irure dolor in sint</p>
+          <h4>David Warner</h4>
+          <p>Designer</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="prof">
+        <div class="prof-img">
+          <img src="imag/profile-img-3.jpg" alt="">
+        </div>
+        <div class="prof-cont">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aute irure dolor in sint</p>
+          <h4>Michel Jonson</h4>
+          <p>Designer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="subscribe-our-newsletter subscribe-our-newsletter-bg">
+  <div class="who-item-table">
+      <div class="who-item-tablecell">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <div class="newsletter-content">  
+                          <h2>Subscribe to Our Newsletter</h2>
+                          <p>Sign up to our newsletter subscription and be the first to know about latest company news, special offers and discounts.</p>
+                      </div> 
+                  </div>
+              </div>
+             
+              <form class="subscribe-nesletter" action="index.html">
+                  <div class="row">
+                      <div class="col-lg-8 col-md-8 offset-lg-2 input">
+                          <input type="text" placeholder="name@example.com">
+                      </div>
+                      <div class="col-lg-2 col-md-4 button">
+                          <button>Subscribe <i class="fa fa-send"></i></button>
+                      </div>
+                  </div>
+              </form>
+              
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="latest-news">
+  <div class="container text-center">
+    <div class="latest-news-head">
+      <h2>our latest news</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card card-sec cartt" style="width: 100%;">
+          <img src="imag/blog-bg-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body card-contt">
+            <p>28th May, 2024</p>
+            <h5>Your source of monitoring today’s market data…</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing eliesent vestibulum molestie lacus. Aenean nonummy hendrerit mauriellus porta usce suscipit.</p>
+            <button><a href="single-blog.html" style="color: #333;">Read More <i class="fa-solid fa-arrow-right"></i></a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card card-sec cartt" style="width: 100%;">
+          <img src="imag/blog-bg-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body card-contt">
+            <p>28th May, 2024</p>
+            <h5>Your source of monitoring today’s market data…</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing eliesent vestibulum molestie lacus. Aenean nonummy hendrerit mauriellus porta usce suscipit.</p>
+            <button><a href="single-blog.html" style="color: #333;">Read More <i class="fa-solid fa-arrow-right"></i></a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card card-sec cartt" style="width: 100%;">
+          <img src="imag/blog-bg-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body card-contt">
+            <p>28th May, 2024</p>
+            <h5>Your source of monitoring today’s market data…</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing eliesent vestibulum molestie lacus. Aenean nonummy hendrerit mauriellus porta usce suscipit.</p>
+            <button><a href="single-blog.html" style="color: #333;">Read More <i class="fa-solid fa-arrow-right"></i></a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer>
+  <div class="footer-details">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="col1-logo foot-section">
+            <img src="imag/logo.png" alt="">
+            <p>We are always ready to help you.</p>
+            <p>210-2750 Quadra Street Victoria, Canada</p>
+            <span style="display:block;">Phone: +324-5442-415</span>
+            <span style="display:block;">Fax: +324-5442-415</span>
+            <span style="display:block;">Email: support@construction.com</span>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="quick-link foot-section">
+            <h4>Quick Links</h4>
+            <a href="index.html" style="display: block;"><i class="fa-solid fa-chevron-right"></i>  Home</a>
+            <a href="about.html" style="display: block;"><i class="fa-solid fa-chevron-right"></i>  About</a>
+            <a href="service.html" style="display: block;"><i class="fa-solid fa-chevron-right"></i>  Services</a>
+            <a href="project.html" style="display: block;"><i class="fa-solid fa-chevron-right"></i>  Projects</a>
+            <a href="gallery.html" style="display: block;"><i class="fa-solid fa-chevron-right"></i>  Gallery</a>
+            <a href="blog.html" style="display: block;"><i class="fa-solid fa-chevron-right"></i>  Blog</a>
+            <a href="contact.html" style="display: block;"><i class="fa-solid fa-chevron-right"></i>  Contact</a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="foot-section">
+          
+            <h4>Recent Post</h4>
+            <div class="Recent-Post">
+            <div class="construction">
+              <div class="construction-img">
+               <img src="imag/footer-thumb-img-1.jpg" alt="">
+              </div>
+              <div class="construction-details">
+                <h5>construction Campany</h5>
+                <p>June 10,2024</p>
+              </div>
+            </div>
+          </div>
+          <div class="Recent-Post">
+           
+            <div class="construction">
+              <div class="construction-img">
+               <img src="imag/footer-thumb-img-2.jpg" alt="">
+              </div>
+              <div class="construction-details">
+                <h5>construction Campany</h5>
+                <p>June 10,2024</p>
+              </div>
+            </div>
+            <div class="Recent-Post">
+              <div class="construction">
+                <div class="construction-img">
+                 <img src="imag/footer-thumb-img-3.jpg" alt="">
+                </div>
+                <div class="construction-details">
+                  <h5>construction Campany</h5>
+                  <p>June 10,2024</p>
+                </div>
+              </div>
+        </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="contact-with-me foot-section">
+            <h4>Connect With Us</h4>
+            <p>Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
+            
+            <form action="" class="form-subscribe">
+              <input type="text" placeholder="Type your email">
+              <button>Subscribe</button>
+            </form>
+            
+            <div class="contact-icon">
+              <a href="https://www.facebook.com/indexhtm/?locale=ar_AR"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://x.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.google.com"><i class="fa-brands fa-google"></i></a>
+              <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col copy1">
+          <p>Copyright Runhill All Rights Reserved by SohaRefaat</p>
+        </div>
+        <div class="col copy2">
+          <p>Terms & Condition | Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>
